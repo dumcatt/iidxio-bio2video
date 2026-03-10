@@ -15,11 +15,12 @@ Rename `iidxio-bi2x.dll` to `iidxio.dll` and use it in place of Bemanitools-supp
 
 Only the dlls from 27 HEROIC VERSE are tested, but newer dlls should work as well.
 
+### RGB LED Settings
+To customize the LED colours, change the hex colourcodes in `bio2video.ini`
+
 ## Nerd section
 ### How do I build it?
 Supply the aforementioned DLL files to `extern/dlls` folder, and build using CMake on Mingw64.
 
-### How do I control Card Reader / Pillar / Turntable / Woofer LEDs?
-While I haven't written the functionality for it yet, libaio API for controlling them are defined in [`libaio-iob2_video.h`](src/libaio-iob2_video.h) with simple comments.
 You are more than welcome to take the matter to your own hands and contribute back!
 
