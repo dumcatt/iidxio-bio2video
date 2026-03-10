@@ -11,7 +11,7 @@ You can then review the outputs from BI2X and verify the inputs.
 ### iidxio-bi2x.dll
 
 Place `libacc.dll`, `libaio.dll`, `libaio-iob.dll` and `libaio-iob2_video.dll` along with `iidxio-bi2x.dll`.
-Rename `iidxio-bi2x.dll` to `iidxio.dll` and use it in place of Bemanitools-supplied `iidxio.dll`. No config should be required.
+Rename `iidxio-bi2x.dll` to `iidxio.dll` and use it in place of Bemanitools-supplied `iidxio.dll`. No config is required for basic usage. However, `bio2video.ini` needs to be in the same directory as `iidxio-bi2x.dll` to customize RGB lights.
 
 Only the dlls from 27 HEROIC VERSE are tested, but newer dlls should work as well.
 

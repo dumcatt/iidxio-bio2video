@@ -40,11 +40,11 @@ static uint32_t read_hex_ini(const char* section, const char* key, uint32_t def_
 static void load_led_config() {
 	const char* ini_path = ".\\bio2video.ini";
 	// Default values are provided as fallbacks if the file/key isn't found
-	woofer_color  = read_hex_ini("LED", "Woofer", 0xFF00FF, ini_path);
-	tt_p1_color   = read_hex_ini("LED", "TTP1",   0xFF0000, ini_path);
-	tt_p2_color   = read_hex_ini("LED", "TTP2",   0x0000FF, ini_path);
-	iccr_p1_color = read_hex_ini("LED", "IccrP1", 0xFF0000, ini_path);
-	iccr_p2_color = read_hex_ini("LED", "IccrP2", 0x0000FF, ini_path);
+	woofer_color  = read_hex_ini("LED", "Woofer", 0xFFFFFF, ini_path);
+	tt_p1_color   = read_hex_ini("LED", "TTP1",   0xFFFFFF, ini_path);
+	tt_p2_color   = read_hex_ini("LED", "TTP2",   0xFFFFFF, ini_path);
+	iccr_p1_color = read_hex_ini("LED", "IccrP1", 0xFFFFFF, ini_path);
+	iccr_p2_color = read_hex_ini("LED", "IccrP2", 0xFFFFFF, ini_path);
 	pillar_color  = read_hex_ini("LED", "Pillar", 0xFFFFFF, ini_path);
 }
 
