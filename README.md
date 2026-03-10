@@ -16,7 +16,17 @@ Rename `iidxio-bi2x.dll` to `iidxio.dll` and use it in place of Bemanitools-supp
 Only the dlls from 27 HEROIC VERSE are tested, but newer dlls should work as well.
 
 ### RGB LED Settings
-To customize the LED colours, change the hex colourcodes in `bio2video.ini`
+To customize the LED colours, change the hex colourcodes in `bio2video.ini`:
+
+``` bio2video.ini
+[LED]
+Woofer=0xFF00FF
+TTP1=0xFF0000
+TTP2=0x0000FF
+IccrP1=0xFF0000
+IccrP2=0x0000FF
+Pillar=0xFFFFFF
+```
 
 ## Nerd section
 ### How do I build it?
